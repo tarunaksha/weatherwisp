@@ -1,39 +1,60 @@
 const defaultCities = [
-    {
-      name: "Kolkata",
-      country: "IN",
-      state: "West Bengal",
-      lat: 22.5726,
-      lon: 88.3639,
-    },
-    {
-      name: "New Delhi",
-      country: "IN",
-      state: "Delhi",
-      lat: 28.6139,
-      lon: 77.209,
-    },
-    {
-      name: "Bangalore",
-      country: "IN",
-      state: "Karnataka",
-      lat: 12.9716,
-      lon: 77.5946,
-    },
-    {
-      name: "Mumbai",
-      country: "IN",
-      state: "Maharashtra",
-      lat: 19.076,
-      lon: 72.8777,
-    },
-    {
-      name: "Hyderabad",
-      country: "IN",
-      state: "Telangana",
-      lat: 17.385,
-      lon: 78.4867,
-    },
-  ];
-  
-  export default defaultCities;
+  {
+    name: "Kolkata",
+    country: "IN",
+    state: "West Bengal",
+    lat: 22.5697,
+    lon: 88.3697,
+  },
+  {
+    name: "New Delhi",
+    country: "IN",
+    state: "Delhi",
+    lat: 28.6128,
+    lon: 77.2311,
+  },
+  {
+    name: "Bangalore",
+    country: "IN",
+    state: "Karnataka",
+    lat: 12.9762,
+    lon: 77.6033,
+  },
+  {
+    name: "Mumbai",
+    country: "IN",
+    state: "Maharashtra",
+    lat: 19.0144,
+    lon: 72.8479,
+  },
+  {
+    name: "Hyderabad",
+    country: "IN",
+    state: "Telangana",
+    lat: 17.3753,
+    lon: 78.4744,
+  },
+  {
+    name: "Chennai",
+    country: "IN",
+    state: "Tamilnadu",
+    lat: 13.0878, 
+    lon: 80.2785,
+  },
+  {
+    name: "Medinipur",
+    country: "IN",
+    state: "West Bengal",
+    lat: 22.4333,
+    lon: 87.3333,
+  },
+  {
+    name: "Garhbeta",
+    country: "IN",
+    state: "West Bengal",
+    lat: 22.8574,
+    lon: 87.3567,
+  },
+];
+
+export default defaultCities;

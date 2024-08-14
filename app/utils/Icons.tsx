@@ -19,6 +19,7 @@ import {
     CalendarDays,
     SunDim,
     CloudLightning,
+    Haze,
   } from "lucide-react";
   
   export const commandIcon = <Command size={14} />;
@@ -41,3 +42,4 @@ import {
   export const calender = <CalendarDays size={15} />;
   export const sun = <SunDim size={15} />;
   export const thunderStorm = <CloudLightning size={15} />;
+  export const haze = <Haze size={15} />;
