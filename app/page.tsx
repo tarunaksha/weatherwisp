@@ -7,9 +7,11 @@ import FeelsLike from "./Components/FeelsLike/FeelsLike";
 import Humidity from "./Components/Humidity/Humidity";
 import Navbar from "./Components/Navbar";
 import Population from "./Components/Population/Population";
+import Pressure from "./Components/Pressure/Pressure";
 import Sunset from "./Components/Sunset/Sunset";
 import Temperature from "./Components/Temperature/Temperature";
 import UvIndex from "./Components/UvIndex/UvIndex";
+import Visibility from "./Components/Visibility/Visibility";
 import Wind from "./Components/Wind/Wind";
 
 export default function Home() {
@@ -30,6 +32,8 @@ export default function Home() {
             <Population />
             <FeelsLike />
             <Humidity />
+            <Visibility />
+            <Pressure />
           </div>
         </div>
       </div>
