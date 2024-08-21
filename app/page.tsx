@@ -13,7 +13,7 @@ import Temperature from "./Components/Temperature/Temperature";
 import UvIndex from "./Components/UvIndex/UvIndex";
 import Visibility from "./Components/Visibility/Visibility";
 import Wind from "./Components/Wind/Wind";
-import defaultStates from "./utils/defaultCities";
+import defaultCities from "./utils/defaultCities";
 import FiveDayForecast from "./Components/FiveDayForecast/FiveDayForecast";
 import { useGlobalContextUpdate } from "./context/globalContext";
 
@@ -57,16 +57,16 @@ export default function Home() {
                 Top Large Cities
               </h2>
               <div className="flex flex-col gap-4">
-                {defaultStates.map((state, index) => {
+                {defaultCities.map((city, index) => {
                   return (
                     <div
                       key={index}
                       className="border rounded-lg cursor-pointer dark:bg-dark-grey shadow-sm dark:shadow-none"
                       onClick={() => {
-                        getClickedCityCords(state.lat, state.lon);
+                        getClickedCityCords(city.lat, city.lon);
                       }}
                     >
-                      <p className="px-6 py-4">{state.name}</p>
+                      <p className="px-6 py-4">{city.name}</p>
                     </div>
                   );
                 })}
