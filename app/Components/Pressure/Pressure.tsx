@@ -39,7 +39,7 @@ function Pressure() {
         <p className="pt-4 text-2xl">{pressure} hPa</p>
       </div>
 
-      <p className="text-sm">{getPressureDescription(pressure)}</p>
+      <p className="text-sm">{getPressureDescription(pressure)}.</p>
     </div>
   );
 }

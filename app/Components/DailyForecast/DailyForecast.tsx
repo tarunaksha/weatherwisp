@@ -13,6 +13,7 @@ import { kelvinToCelsius } from "@/app/utils/misc";
 
 function DailyForecast() {
   const { forecast, fiveDayForecast } = useGlobalContext();
+
   const { weather } = forecast;
   const { city, list } = fiveDayForecast;
 
@@ -27,7 +28,7 @@ function DailyForecast() {
   const today = new Date();
   const todayString = today.toISOString().split("T")[0];
 
-  // filtering the list for today's forecast
+  //filter the list for today's forecast
   const todaysForecast = list.filter(
     (forecast: { dt_txt: string; main: { temp: number } }) => {
       return forecast.dt_txt.startsWith(todayString);

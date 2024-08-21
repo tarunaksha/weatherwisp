@@ -41,20 +41,6 @@ const defaultCities = [
     lat: 13.0878, 
     lon: 80.2785,
   },
-  {
-    name: "Medinipur",
-    country: "IN",
-    state: "West Bengal",
-    lat: 22.4333,
-    lon: 87.3333,
-  },
-  {
-    name: "Garhbeta",
-    country: "IN",
-    state: "West Bengal",
-    lat: 22.8574,
-    lon: 87.3567,
-  },
 ];
 
 export default defaultCities;

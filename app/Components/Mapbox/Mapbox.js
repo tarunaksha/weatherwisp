@@ -26,7 +26,7 @@ function FlyToActiveCity({ activeCityCords }) {
 }
 
 function Mapbox() {
-  const { forecast } = useGlobalContext();
+  const { forecast } = useGlobalContext(); // Your coordinates
 
   const activeCityCords = forecast?.coord;
 

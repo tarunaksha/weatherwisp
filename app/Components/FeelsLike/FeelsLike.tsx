@@ -16,10 +16,10 @@ function FeelsLike() {
 
   const feelsLikeText = (
     feelsLike: number,
-    minTemp: number,
+    minTemo: number,
     maxTemp: number
   ) => {
-    const avgTemp = (minTemp + maxTemp) / 2;
+    const avgTemp = (minTemo + maxTemp) / 2;
 
     if (feelsLike < avgTemp - 5) {
       return "Feels significantly colder than actual temperature.";
