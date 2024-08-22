@@ -23,7 +23,9 @@ function Navbar() {
           <Button
             className="source-code-btn flex items-center gap-2"
             onClick={() => {
-              router.push("https//github.com");
+              if (typeof window !== 'undefined') {
+                window.open("https://github.com/tarunaksha/weatherwisp", "_blank");
+              }
             }}
           >
             {github} Source Code
